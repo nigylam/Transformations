@@ -6,7 +6,7 @@ public class Rotation : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    void Update()
+    private void Update()
     {
         transform.Rotate(Vector3.up * Time.deltaTime * _speed);
     }
